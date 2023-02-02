@@ -1,0 +1,725 @@
+
+/*====================== section 1 ===========================*/
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+.navbar-nav
+{
+    list-style-type: none;
+}
+#imglogo img
+{
+    width: 90px;
+    height: 70px;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: -17px;
+}
+
+.btn-order
+{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    
+    color: green;
+    border-color: green;
+    transition: 0.5s;
+}
+.btn-order:hover,
+.btn-order:active
+{
+    color: #fff;
+    background-color: green;
+}
+.bbnavbar
+{
+
+    box-shadow: 1px 1px 3px rgba(255,255,255, 0.54);
+    height: 61px;
+    margin-bottom: -20px;
+
+}
+.nav-link
+{
+    color: #fff;
+    margin-top: -18px;
+}
+.dropdown-toggle
+{
+    color: #fff;
+}
+
+.btn-banner
+{
+    list-style-type: none;
+    font-size: 30px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: green;
+    border-color: green;
+    transition: 0.5s;
+}
+
+
+.btn-banner:hover,
+.btn-banner:active
+{
+    color: #fff;
+    background-color: green;
+}
+
+.nav-link::after
+{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: green;
+    display: block;
+    margin: auto;
+    transition: 0.5s; 
+   
+}
+.nav-link:hover::after
+{
+    width: 100%;
+}
+
+/*======================fin section 1 ===========================*/
+/*====================== section 2 ===========================*/
+.calme
+{
+    min-width: 100vh;
+    height: 100vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.carousel-caption li
+{
+    list-style-type: none;
+}
+/*======================fin section 2 ===========================*/
+
+/*====================== section 3 ===========================*/
+.bloc
+{
+    height: 300px;
+    background-image: url(images/fond2.jpg);
+    background-size: cover;
+}
+h1
+{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px 0;
+}
+.bloc1 h3
+{
+    text-align: center;   
+}
+.bloc1 p
+{
+    text-align: justify;
+}
+.bloc1
+{
+    padding: 0px 7px;
+}
+
+.bloc2
+{
+    height: 300px;
+    background-image: url(images/fond1.jpg);
+    background-size: cover;
+}
+#conte
+{
+    margin-top: 10px;
+}
+/*======================fin section 3 ===========================*/
+
+/*====================== section 4 ===========================*/
+.espace
+{
+    background-color: black;
+}
+.espace p
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    color: #fff;
+}
+.espace p span .glyphicon
+{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    margin-top: -25px;
+}
+/*======================fin section 4 ===========================*/
+
+
+/*====================== section 5 ===========================*/
+
+.ccmenu
+{
+    min-width: 100vh;
+   background-color: cadetblue;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.H1
+{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: black;
+    font-family: serif;
+    text-align: center;
+    font-size: 40px;
+}
+.menu
+{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+    
+}
+.menu li
+{
+    list-style-type: none;
+    margin: 0px 10px;
+}
+.menu li a
+{
+    text-decoration: none;
+    color: #fff;
+
+}
+/*======================fin section 5 ===========================*/
+/*====================== section 6 ===========================*/
+.container
+{
+    margin-top: 20px;
+
+
+}
+.bloci
+{
+    border-radius: 20px;
+   height: 200px;
+   background-image: url(images/frite.jpg);
+   background-size: cover; 
+}
+.blocii
+{
+    border-radius: 20px;
+   height: 200px;
+   background-image: url(images/commande.jpg);
+   background-size: cover; 
+}
+.blociii
+{
+    border-radius: 20px;
+   height: 200px;
+   background-image: url(images/reservation.jpg);
+   background-size: cover; 
+}
+
+.bloc111
+{
+    border-radius: 20px;
+    height: 200px;
+    background-image: url(images/pizza.jpg);
+    background-size: cover;   
+}
+.bloc11
+{
+    border-radius: 20px;
+    height: 200px;
+    background-image: url(images/poulet.jpg);
+    background-size: cover;   
+}
+.blocI
+{
+    border-radius: 20px;
+   height: 200px;
+   background-image: url(images/salad.jpg);
+   background-size: cover; 
+}
+.blocII
+{
+    border-radius: 20px;
+   height: 200px;
+   background-image: url(images/humburger1.jpg);
+   background-size: cover; 
+}
+.blocIII
+{
+    border-radius: 20px;
+   height: 200px;
+   background-image: url(images/Otre.jpg);
+   background-size: cover; 
+}
+
+
+.rep
+{
+    min-width: 100vh;
+    
+    background-image: url(images/font3.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+
+
+.reservation
+{
+    min-width: 100vh;
+   
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-top: 20px;   
+} 
+
+
+
+
+.col-md-4 h3
+{
+    color: #fff;
+}
+.col-md-4 p
+{
+    color: #fff;
+}
+.col-md-4 li
+{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
+}
+.col-md-6
+{
+    padding-top: 15px;
+}
+/*======================fin section 6 ===========================*/
+/*====================== section 7 ===========================*/
+
+ .newletter
+ {
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     height: 150px;
+     background-color: #fff;
+ }
+
+ #contact
+ {
+     padding: 60px 0;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+
+ }
+
+ #contact h2{
+     width: 400px;
+     text-transform: uppercase;
+     font-size: 25px;
+     margin: 0 auto 20px;
+     color: #444;
+     border-bottom: 3px solid #02b8dd;
+     padding-bottom: 20px;
+
+ }
+
+ form
+{
+    margin: 40px 0 20px 0;
+} 
+
+input{
+    padding: 5px;
+}
+
+.bouton {
+     width: 100px;
+     margin-left: 10px;
+     border: none;
+}
+
+
+.b1
+{
+    text-transform: uppercase;
+    margin: -12px 30px 20px -20px;
+    width: 120px;
+}
+.b2
+{
+    text-transform: uppercase;
+    margin: -12px 0px 20px -10px;
+    width: 150px;
+}
+/*======================fin section 7 ===========================*/
+
+/*====================== section 8 ===========================*/
+
+/* =========================nos-témoins ======================*/
+.lefond
+{
+    background-color: aquamarine;
+}
+.image1
+{
+    height: 400px;
+    background-image: url(images/mojavelie.jpg);
+    background-size: cover;
+}
+
+.image3
+{
+    height: 400px;
+    background-image: url(images/eugène.jpg);
+    background-size: cover;
+}
+.image2
+{
+    height: 400px;
+    background-image: url(images/yans.jpeg);
+    background-size: cover;
+}
+/* =========================fin nos-témoins ======================*/
+.PiedDePage
+{
+    background-color: black;
+    height: 60px;
+    margin-top: -5px;
+  
+    
+    
+}
+.PiedDePage h2
+{
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+.Footer
+{
+    
+        background-color: black;
+        height: 60px;
+        margin-top: -22px;
+}
+.Footer h2
+{
+    text-align: center;
+    color: #fff;
+}
+
+.Footer1
+{
+    
+        background-color: black;
+        height: 60px;
+        margin-top: -22px;
+}
+.Footer1 h2
+{
+    text-align: center;
+    color: #fff;
+}
+.Footer2
+{
+    
+        background-color: black;
+        height: 60px;
+        margin-top: -16px;
+}
+.Footer2 h2
+{
+    text-align: center;
+    color: #fff;
+}
+
+.Footer3
+{
+    
+        background-color: black;
+        height: 60px;
+        margin-top: -20px;
+}
+.Footer3 h2
+{
+    text-align: center;
+    color: #fff;
+}
+
+
+.fin
+{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+/*======================fin section 8 ===========================*/
+
+
+
+
+/*======================= Modification ===========================*/
+#propos
+{
+    margin-top: 60px;
+}
+.Aproposdenous
+{
+    height: 100px;
+    background-color: orange;
+    padding-top: 10px;
+}
+
+#com
+{
+    margin-top: 50px;
+}
+#notre
+{
+    margin-top: 200px;
+}
+#Container
+{
+    margin-top: 50px;
+}
+#Pie
+{
+    background-color: orange;
+}
+
+.services
+{
+    margin-top: -20px;
+}
+.res
+{
+    min-width: 100vh;
+    height: 500px;
+    background-image: url(images/fond1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-top: 20px;  
+}
+.blocc
+{
+    border-radius: 20px;
+    height: 300px;
+    background-image: url(images/font2.jpg);
+    background-size: cover; 
+}
+#CCR
+{
+    margin-top: -21px;
+    background-color: orange
+}
+/* .R
+{
+    color: black;
+    
+}
+.paragraphe
+{
+    color: #;
+    text-align: justify;
+} */
+/*=======================fin Modification ===========================*/
+
+/*======================== Equipe ================================*/
+
+.im1
+{
+    height: 300px;
+    background-image: url(images/Alexis.jpeg);
+    background-size: cover;
+    
+}
+.im2
+{
+    height: 300px;
+    background-image: url(images/vilane.jpg);
+    background-size: cover;   
+}
+.im3
+{
+    height: 300px;
+    background-image: url(images/marie.jpeg);
+    background-size: cover;    
+}
+.im4
+{
+    height: 300px;
+    background-image: url(images/konaté.jpeg);
+    background-size: cover;  
+}
+.im5
+{
+    height: 300px;
+    background-image: url(images/kabinet.jpeg);
+    background-size: cover;    
+}
+.im6
+{
+    height: 300px;
+    background-image: url(images/komah.jpg);
+    background-size: cover;    
+}
+.im7
+{
+    height: 300px;
+    background-image: url(images/oconor.jpeg);
+    background-size: cover;    
+}
+.im8
+{
+    height: 300px;
+    background-image: url(images/fadiga.jpg);
+    background-size: cover;    
+}
+.im9
+{
+    height: 300px;
+    background-image: url(images/gnalen.JPG);
+    background-size: cover;    
+}
+
+#border
+{
+    border-radius: 50px;
+}
+.Matricule
+{
+    font-size: 25px;
+    margin-top: -10px;
+}
+.equipe
+{
+    background-color: chocolate;
+   
+}
+
+/*========================fin Equipe ================================*/
+
+/*------------------------- Formulaire -------------------------------*/
+.contactez
+{
+    background-color: orange;
+    height: 100px;
+}
+
+.contactez h1
+{
+    color: black;
+}
+
+#H4
+{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.footer
+{
+    background-color: black;
+    margin-top: -15px;
+}
+
+
+/*-------------------------fin Formulaire -------------------------------*/
+
+
+
+/*=========================== commande ===============================*/
+
+ #Col
+ {
+     border: 2px solid black;
+     border-radius: 15px;
+     box-shadow: 1px 1px 10px;
+     justify-content: space-between;
+ }
+/*=========================== commande ===============================*/
+
+#btn1
+{
+    float: right;
+}
+
+/* =============================== Le responsive =========================*/
+
+@media screen and (max-width: 991px)
+{
+    body
+    {
+        flex-direction: column;
+        
+    }
+    .navbar
+    {
+        background-attachment: fixed;
+    }
+
+}
+/* ===============================fin Le responsive =========================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================fin section 6 ===========================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
